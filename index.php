@@ -5,11 +5,11 @@
 // echo "<br>";
 $metodo = $_SERVER['REQUEST_METHOD'];
 //credenciales base de datos
-$hostname="monorail.proxy.rlwy.net";
+$hostname="";
 $username="root";
-$password="sEFUPCQWvNqJoJMzpZZrFzyEasnuvNrj";
-$database="railway";
-$port="22011";
+$password="";
+$database="";
+$port="";
 
 // Conectar a la base de datos
 $conexion= new mysqli($hostname, $username, $password, $database, $port);
