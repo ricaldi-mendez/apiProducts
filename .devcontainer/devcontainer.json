@@ -1,0 +1,19 @@
+{
+    "name": "PHP Development",
+    "dockerFile": "Dockerfile",
+    "settings": {
+      "php.validate.enable": true,
+      "php.suggest.basic": false
+    },
+    "extensions": [
+      "felixfbecker.php-debug",
+      "felixfbecker.php-intellisense",
+      "bmewburn.vscode-intelephense-client"
+    ],
+    "runArgs": ["--privileged"],
+    "service": "apache",
+    "features": {
+        "ghcr.io/devcontainers/features/github-cli:1": {}
+    }
+  }
+  
